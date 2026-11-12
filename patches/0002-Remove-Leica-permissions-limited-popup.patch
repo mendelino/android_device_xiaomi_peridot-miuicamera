@@ -8,7 +8,7 @@ Subject: [PATCH 2/7] Remove Leica permissions limited popup
  1 file changed, 3 deletions(-)
 
 diff --git a/smali/com/android/camera/ActivityBase$c.smali b/smali/com/android/camera/ActivityBase$c.smali
-index 71436189..36618e24 100644
+index b43f325b..65a7cea9 100644
 --- a/smali/com/android/camera/ActivityBase$c.smali
 +++ b/smali/com/android/camera/ActivityBase$c.smali
 @@ -79,9 +79,6 @@
@@ -17,7 +17,7 @@ index 71436189..36618e24 100644
      :pswitch_1
 -    const p1, 0x7f140af4
 -
--    invoke-static {p0, p1, v6}, LA/e4;->c(Landroid/content/Context;IZ)V
+-    invoke-static {p0, p1, v6}, LA/g4;->c(Landroid/content/Context;IZ)V
  
      goto/16 :goto_1
  

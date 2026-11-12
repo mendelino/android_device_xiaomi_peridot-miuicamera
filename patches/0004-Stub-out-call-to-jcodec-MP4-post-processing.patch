@@ -9,7 +9,7 @@ Subject: [PATCH 4/7] Stub out call to jcodec MP4 post-processing
  1 file changed, 1 insertion(+), 269 deletions(-)
 
 diff --git a/smali_classes6/Fj/e.smali b/smali_classes6/Fj/e.smali
-index 068d694a..922aa20b 100644
+index 29f357e2..922aa20b 100644
 --- a/smali_classes6/Fj/e.smali
 +++ b/smali_classes6/Fj/e.smali
 @@ -5,275 +5,7 @@
@@ -191,7 +191,7 @@ index 068d694a..922aa20b 100644
 -
 -    check-cast v2, Lorg/jcodec/containers/mp4/boxes/MovieBox;
 -
--    invoke-interface {p1, v2}, LFj/b;->b(Lorg/jcodec/containers/mp4/boxes/MovieBox;)V
+-    invoke-interface {p1, v2}, LFj/b;->i(Lorg/jcodec/containers/mp4/boxes/MovieBox;)V
 -
 -    iget-wide v3, v4, Lorg/jcodec/containers/mp4/boxes/b;->b:J
 -    :try_end_5
